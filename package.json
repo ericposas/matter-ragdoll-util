@@ -1,20 +1,32 @@
 {
-	"name": "matterjs-ragdoll",
-	"version": "1.0.0",
-	"description": "",
-	"main": "bundle.js",
-	"devDependencies": {
-	},
-	"dependencies": {
-		"matter-js": "^0.14.2"
-	},
-	"scripts": {
-		"compile": "webpack --production",
-		"dev:server": "webpack-dev-server --watch --development"
-	},
-	"babel": {
-		"presets": [
-			"@babel/preset-env"
-		]
-	}
+  "name": "matterjs-ragdoll",
+  "version": "1.0.2",
+  "description": "utility for matterjs that easily creates a ragdoll physics character",
+  "main": "./src/index.js",
+  "devDependencies": {},
+  "dependencies": {
+    "matter-js": "^0.14.2"
+  },
+  "scripts": {
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericposas/matter-ragdoll-util.git"
+  },
+  "keywords": [
+    "ragdoll",
+    "matterjs",
+    "physics"
+  ],
+  "author": "ericposas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericposas/matter-ragdoll-util/issues"
+  },
+  "homepage": "https://github.com/ericposas/matter-ragdoll-util#readme"
 }
