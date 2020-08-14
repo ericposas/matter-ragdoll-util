@@ -2,12 +2,8 @@ import Matter from 'matter-js'
 
 
 // create ragdoll guy
-export function createRagdoll(_scale) {
-	let scale
-	if (!_scale || _scale == (undefined || 'undefined')) {
-		_scale = 1
-		scale = _scale
-	}
+export function createRagdoll(scale) {
+	if (!scale) console.log('please provide a scale argument to .createRagdoll() method')
 	const Bodies = Matter.Bodies
 	const Constraint = Matter.Constraint
 	const Composite = Matter.Composite
