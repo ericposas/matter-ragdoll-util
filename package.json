@@ -1,0 +1,20 @@
+{
+	"name": "matterjs-ragdoll",
+	"version": "1.0.0",
+	"description": "",
+	"main": "bundle.js",
+	"devDependencies": {
+	},
+	"dependencies": {
+		"matter-js": "^0.14.2"
+	},
+	"scripts": {
+		"compile": "webpack --production",
+		"dev:server": "webpack-dev-server --watch --development"
+	},
+	"babel": {
+		"presets": [
+			"@babel/preset-env"
+		]
+	}
+}
