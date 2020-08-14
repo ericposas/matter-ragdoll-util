@@ -2,7 +2,7 @@ import Matter from 'matter-js'
 
 
 // create ragdoll guy
-export function createRagdoll(scale) {
+export function createRagdoll(scale = 0) {
 	const Bodies = Matter.Bodies
 	const Constraint = Matter.Constraint
 	const Composite = Matter.Composite
