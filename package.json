@@ -1,6 +1,6 @@
 {
   "name": "matterjs-ragdoll",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "utility for matterjs that easily creates a ragdoll physics character",
   "main": "./src/index.js",
   "devDependencies": {},
