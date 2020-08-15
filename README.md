@@ -11,3 +11,5 @@ import { createRagdoll } from 'matterjs-ragdoll'
 ```
 createRagdoll([size int])
 ```
+
+- createRagdoll(1) returns a Matter.Composite of the ragdoll
